@@ -1,50 +1,347 @@
-[17:29:25] [main/INFO]: Loading Minecraft 1.20.6 with Fabric Loader 0.16.3
-[17:29:25] [main/INFO]: Loading 4 mods:
+[11:36:45] [main/INFO]: Loading Minecraft 1.20.6 with Fabric Loader 0.16.3
+[11:36:46] [ForkJoinPool-1-worker-1/WARN]: Mod mr_dungeons uses the version 1.8.4b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '4b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:36:46] [ForkJoinPool-1-worker-1/WARN]: Mod travelersbackpack uses the version fabric-1.20.6-9.6.4 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:36:48] [main/WARN]: Warnings were found!
+ - Mod 'More Mobs' (moremobs) 1.5.6+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[11:36:48] [main/INFO]: Loading 91 mods:
+	- architectury 12.1.4
+	- balm-fabric 10.3.6
+	   \-- kuma_api 20.6.4
+	- cardinal-components 6.0.0
+	   |-- cardinal-components-base 6.0.0
+	   |-- cardinal-components-block 6.0.0
+	   |-- cardinal-components-chunk 6.0.0
+	   |-- cardinal-components-entity 6.0.0
+	   |-- cardinal-components-item 6.0.0
+	   |-- cardinal-components-level 6.0.0
+	   |-- cardinal-components-scoreboard 6.0.0
+	   \-- cardinal-components-world 6.0.0
+	- carryon 2.1.4
+	- chunky 1.4.10
+	- cloth-config 14.0.126
+	   \-- cloth-basic-math 0.6.1
+	- collective 7.84
+	- creativecore 2.11.33
+	   \-- net_neoforged_bus 7.2.0
+	- cristellib 1.2.5
+	   \-- blue_endless_jankson 1.2.3
+	- enhancedvisuals 1.7.2
+	- fabric-api 0.100.8+1.20.6
+	   |-- fabric-api-base 0.4.40+80f8cf51b0
+	   |-- fabric-api-lookup-api-v1 1.6.59+e9d2a72bb0
+	   |-- fabric-biome-api-v1 13.0.25+be5d88beb0
+	   |-- fabric-block-api-v1 1.0.20+6dfe4c9bb0
+	   |-- fabric-block-view-api-v2 1.0.8+80f8cf51b0
+	   |-- fabric-blockrenderlayer-v1 1.1.50+80f8cf51b0
+	   |-- fabric-client-tags-api-v1 1.1.12+7f945d5bb0
+	   |-- fabric-command-api-v1 1.2.45+f71b366fb0
+	   |-- fabric-command-api-v2 2.2.24+80f8cf51b0
+	   |-- fabric-commands-v0 0.2.62+df3654b3b0
+	   |-- fabric-content-registries-v0 8.0.6+b82b2392b0
+	   |-- fabric-convention-tags-v1 2.0.7+7f945d5bb0
+	   |-- fabric-convention-tags-v2 2.1.3+f4bfb622b0
+	   |-- fabric-crash-report-info-v1 0.2.27+80f8cf51b0
+	   |-- fabric-data-attachment-api-v1 1.1.17+2a2c66b6b0
+	   |-- fabric-data-generation-api-v1 19.2.5+a5d5299db0
+	   |-- fabric-dimensions-v1 2.1.68+94793913b0
+	   |-- fabric-entity-events-v1 1.6.8+e9d2a72bb0
+	   |-- fabric-events-interaction-v0 0.7.6+c5fc38b3b0
+	   |-- fabric-game-rule-api-v1 1.0.50+80f8cf51b0
+	   |-- fabric-item-api-v1 8.2.3+6e5bbc4ab0
+	   |-- fabric-item-group-api-v1 4.1.1+f4bfb622b0
+	   |-- fabric-key-binding-api-v1 1.0.45+80f8cf51b0
+	   |-- fabric-keybindings-v0 0.2.43+df3654b3b0
+	   |-- fabric-lifecycle-events-v1 2.3.4+c5fc38b3b0
+	   |-- fabric-loot-api-v2 3.0.6+97f703dab0
+	   |-- fabric-message-api-v1 6.0.11+a7dc0e41b0
+	   |-- fabric-model-loading-api-v1 1.0.12+80f8cf51b0
+	   |-- fabric-models-v0 0.4.11+9386d8a7b0
+	   |-- fabric-networking-api-v1 4.2.0+a916f7c5b0
+	   |-- fabric-object-builder-api-v1 15.1.5+c5fc38b3b0
+	   |-- fabric-particles-v1 4.0.0+c5fc38b3b0
+	   |-- fabric-recipe-api-v1 5.0.6+9c745bbbb0
+	   |-- fabric-registry-sync-v0 5.0.19+c7d49fa1b0
+	   |-- fabric-renderer-api-v1 3.3.0+81dac6a1b0
+	   |-- fabric-renderer-indigo 1.5.15+41791025b0
+	   |-- fabric-renderer-registries-v1 3.2.62+df3654b3b0
+	   |-- fabric-rendering-data-attachment-v1 0.3.46+73761d2eb0
+	   |-- fabric-rendering-fluids-v1 3.1.3+2c869dedb0
+	   |-- fabric-rendering-v0 1.1.65+df3654b3b0
+	   |-- fabric-rendering-v1 4.2.5+850ef40bb0
+	   |-- fabric-resource-conditions-api-v1 4.2.0+a5d5299db0
+	   |-- fabric-resource-loader-v0 1.1.1+f4bfb622b0
+	   |-- fabric-screen-api-v1 2.0.21+7b70ea8ab0
+	   |-- fabric-screen-handler-api-v1 1.3.76+8c7b71c2b0
+	   |-- fabric-sound-api-v1 1.0.21+c5fc38b3b0
+	   |-- fabric-transfer-api-v1 5.1.7+7fc4b352b0
+	   \-- fabric-transitive-access-wideners-v1 6.0.10+74e2f560b0
 	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
+	- frycmobvariants 5.5.1+1.20.5
+	- glitchcore 1.1.0.10
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- jade 14.2.4+fabric
 	- java 21
+	- mcwbridges 3.0.0
+	- mcwdoors 1.1.2
+	- mcwfences 1.2.0
+	- mcwfurnitures 3.3.0
+	- mcwpaintings 1.0.5
 	- minecraft 1.20.6
-[17:29:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/M1.20.6/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:29:35] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:29:37] [main/INFO]: No existing world data, creating new world
-[17:29:38] [main/INFO]: Loaded 1175 recipes
-[17:29:39] [main/INFO]: Loaded 1276 advancements
-[17:29:40] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[17:29:40] [Server thread/INFO]: Loading properties
-[17:29:40] [Server thread/INFO]: Default game type: SURVIVAL
-[17:29:40] [Server thread/INFO]: Generating keypair
-[17:29:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:29:40] [Server thread/INFO]: Using epoll channel type
-[17:29:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:29:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:29:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:29:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:29:40] [Server thread/INFO]: Preparing level "world"
-[17:29:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:29:55] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:29:55] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:29:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:29:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:29:57] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:29:57] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:29:58] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:29:58] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:29:59] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:29:59] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:00] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:00] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:01] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:01] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:02] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:02] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:03] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:03] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:04] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:04] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:05] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:30:05] [Server thread/INFO]: Time elapsed: 10342 ms
-[17:30:05] [Server thread/INFO]: Done (25.094s)! For help, type "help"
-[17:30:52] [Server thread/INFO]: DetonaGordas99[/100.115.36.22:63172] logged in with entity id 9 at (5.5, 72.0, -0.5)
-[17:30:52] [Server thread/INFO]: DetonaGordas99 joined the game
-[17:31:08] [Server thread/INFO]: DetonaGordas99 lost connection: Disconnected
-[17:31:08] [Server thread/INFO]: DetonaGordas99 left the game
+	- moremobs 1.5.6+mod
+	- mr_dungeons 1.8.4b
+	- mr_dungeons_andtaverns 3.2
+	- mr_upgraded_mobs 1.3.4
+	- placeholder-api 2.4.0-pre.2+1.20.5
+	- roughlyenoughitems 15.0.787
+	   \-- error_notifier 1.0.11
+	- smallships 2.0.0-b1.5
+	   \-- forgeconfigapiport 20.6.1
+	        |-- com_electronwill_night-config_core 3.6.7
+	        \-- com_electronwill_night-config_toml 3.6.7
+	- sound_physics_remastered 1.20.6-1.4.5
+	- strongermobs 1.0.1
+	- structory 1.3.5
+	- t_and_t 1.13.1
+	- toughasnails 9.2.0.180
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- travelersbackpack fabric-1.20.6-9.6.4
+	- treeharvester 9.1
+	- waystones 17.0.2
+	- xaerominimap 25.2.10
+[11:36:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/M1.20.6/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:36:49] [main/INFO]: Compatibility level set to JAVA_16
+[11:36:49] [main/INFO]: Compatibility level set to JAVA_17
+[11:36:49] [main/INFO]: Compatibility level set to JAVA_21
+[11:36:49] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:36:51] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[11:36:51] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11:37:03] [main/INFO]: Loading Collective version 7.84.
+[11:37:04] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[11:37:04] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[11:37:04] [main/ERROR]: No data fixer registered for water_purifier
+[11:37:04] [main/ERROR]: No data fixer registered for temperature_gauge
+[11:37:04] [main/ERROR]: No data fixer registered for thermoregulator
+[11:37:05] [main/INFO]: [More Mobs] Loaded More Mobs by Tschipcraft successfully!
+[11:37:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[11:37:05] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[11:37:05] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[11:37:05] [main/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIPlugin
+[11:37:05] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[11:37:05] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[11:37:05] [main/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIServerPlugin
+[11:37:06] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[11:37:06] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[11:37:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[11:37:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[11:37:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[11:37:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[11:37:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[11:37:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[11:37:06] [main/WARN]: Configuration file ./config/smallships-common.toml is not correct. Correcting
+[11:37:06] [main/WARN]: Incorrect key schematicVersion was corrected from null to its default, 5. 
+[11:37:06] [main/WARN]: Incorrect key Ship was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.shipGeneralSailCooldown was corrected from null to its default, 30. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.shipGeneralCollisionDamage was corrected from null to its default, 7.5. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.shipGeneralCollisionKnockBack was corrected from null to its default, true. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.shipGeneralDoItemDrop was corrected from null to its default, true. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier.shipGeneralContainerModifier was corrected from null to its default, 10.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier.shipGeneralCannonModifier was corrected from null to its default, 2.5. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier.shipGeneralPaddlingModifier was corrected from null to its default, 35.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier.shipGeneralBiomeModifier was corrected from null to its default, 20.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier.shipGeneralShieldDamageReduction was corrected from null to its default, 3.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier.shipGeneralDespawnTimeSunken was corrected from null to its default, 15.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier.mountBlackList was corrected from null to its default, [minecraft:ender_dragon, minecraft:wither, minecraft:wither, minecraft:ghast, minecraft:warden, minecraft:ravager, alexmobs:cachalot_whale]. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier.shipGeneralCannonDamage was corrected from null to its default, 25.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Modifier.shipGeneralCannonDestruction was corrected from null to its default, 1.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Fleeing Water Animals was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Fleeing Water Animals.waterAnimalFleeRadius was corrected from null to its default, 15.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Fleeing Water Animals.waterAnimalFleeSpeed was corrected from null to its default, 1.5. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Fleeing Water Animals.waterAnimalFleeDistance was corrected from null to its default, 10.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Attributes.shipAttributeCogMaxHealth was corrected from null to its default, 300.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Attributes.shipAttributeCogMaxSpeed was corrected from null to its default, 30.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Attributes.shipAttributeCogMaxReverseSpeed was corrected from null to its default, 0.1. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Attributes.shipAttributeCogMaxRotationSpeed was corrected from null to its default, 4.5. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Attributes.shipAttributeCogAcceleration was corrected from null to its default, 0.015. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Attributes.shipAttributeCogRotationAcceleration was corrected from null to its default, 0.7. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Container was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Container.shipContainerCogContainerSize was corrected from null to its default, 108. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Modifier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Cog.Modifier.shipModifierCogBiome was corrected from null to its default, COLD. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Attributes.shipAttributeBriggMaxHealth was corrected from null to its default, 450.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Attributes.shipAttributeBriggMaxSpeed was corrected from null to its default, 35.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Attributes.shipAttributeBriggMaxReverseSpeed was corrected from null to its default, 0.1. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Attributes.shipAttributeBriggMaxRotationSpeed was corrected from null to its default, 4.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Attributes.shipAttributeBriggAcceleration was corrected from null to its default, 0.015. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Attributes.shipAttributeBriggRotationAcceleration was corrected from null to its default, 0.55. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Container was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Container.shipContainerBriggContainerSize was corrected from null to its default, 162. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Modifier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Brigg.Modifier.shipModifierBriggBiome was corrected from null to its default, COLD. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Attributes.shipAttributeGalleyMaxHealth was corrected from null to its default, 200.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Attributes.shipAttributeGalleyMaxSpeed was corrected from null to its default, 30.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Attributes.shipAttributeGalleyMaxReverseSpeed was corrected from null to its default, 0.1. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Attributes.shipAttributeGalleyMaxRotationSpeed was corrected from null to its default, 5.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Attributes.shipAttributeGalleyAcceleration was corrected from null to its default, 0.015. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Attributes.shipAttributeGalleyRotationAcceleration was corrected from null to its default, 1.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Container was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Container.shipContainerGalleyContainerSize was corrected from null to its default, 54. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Modifier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Galley.Modifier.shipModifierGalleyBiome was corrected from null to its default, WARM. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Attributes.shipAttributeDrakkarMaxHealth was corrected from null to its default, 200.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Attributes.shipAttributeDrakkarMaxSpeed was corrected from null to its default, 30.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Attributes.shipAttributeDrakkarMaxReverseSpeed was corrected from null to its default, 0.1. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Attributes.shipAttributeDrakkarMaxRotationSpeed was corrected from null to its default, 5.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Attributes.shipAttributeDrakkarAcceleration was corrected from null to its default, 0.015. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Attributes.shipAttributeDrakkarRotationAcceleration was corrected from null to its default, 1.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Container was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Container.shipContainerDrakkarContainerSize was corrected from null to its default, 54. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Modifier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.Drakkar.Modifier.shipModifierDrakkarBiome was corrected from null to its default, COLD. 
+[11:37:06] [main/WARN]: Configuration file ./config/smallships-client.toml is not correct. Correcting
+[11:37:06] [main/WARN]: Incorrect key schematicVersion was corrected from null to its default, 2. 
+[11:37:06] [main/WARN]: Incorrect key Ship was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.shipModSpeedUnit was corrected from null to its default, 0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Camera was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Camera.Zoom was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Camera.Zoom.shipGeneralCameraZoomEnable was corrected from null to its default, true. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Camera.Zoom.shipGeneralCameraZoomMax was corrected from null to its default, 20.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Camera.Zoom.shipGeneralCameraZoomMin was corrected from null to its default, 5.0. 
+[11:37:06] [main/WARN]: Incorrect key Ship.General.Camera.shipGeneralCameraAutoThirdPerson was corrected from null to its default, true. 
+[11:37:06] [main/WARN]: Incorrect key General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[11:37:06] [main/WARN]: Incorrect key General.smallshipsItemGroupEnable was corrected from null to its default, false. 
+[11:37:06] [main/INFO]: [STDOUT]: All 63 have been set properly
+[11:37:06] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[11:37:06] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[11:37:06] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[11:37:06] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[11:37:06] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[11:37:07] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:37:08] [main/INFO]: Found new data pack carryon, loading it automatically
+[11:37:08] [main/INFO]: Found new data pack smallships, loading it automatically
+[11:37:12] [main/INFO]: Loaded 2766 recipes
+[11:37:12] [main/ERROR]: Failed to load function techno.shared:load
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Invalid chat component: Not a JSON object: ["","\n",{"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":" ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"  ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"Download it to access datapack menu's and settings!","with":[{"text":"[__________Contributors__________]","color":"white","italic":false,"font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":"   ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n",{"translate":"    ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n"]; No matching codec found; Not a json array: {"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"}; Not a string: {"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"}; Not a string: ["","\n",{"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":" ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"  ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"Download it to access datapack menu's and settings!","with":[{"text":"[__________Contributors__________]","color":"white","italic":false,"font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":"   ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n",{"translate":"    ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n"] at position 1979: ...}}]},"\n"]<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Invalid chat component: Not a JSON object: ["","\n",{"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":" ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"  ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"Download it to access datapack menu's and settings!","with":[{"text":"[__________Contributors__________]","color":"white","italic":false,"font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":"   ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n",{"translate":"    ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n"]; No matching codec found; Not a json array: {"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"}; Not a string: {"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"}; Not a string: ["","\n",{"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":" ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"  ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"Download it to access datapack menu's and settings!","with":[{"text":"[__________Contributors__________]","color":"white","italic":false,"font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":"   ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n",{"translate":"    ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n"] at position 1979: ...}}]},"\n"]<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[11:37:12] [main/ERROR]: Failed to load function techno.shared:gui/main_menu
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Invalid chat component: Not a JSON object: ["","\n",{"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":" ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"  ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"Download it to access datapack menu's and settings!","with":[{"text":"[__________Contributors__________]","color":"white","italic":false,"font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":"   ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n",{"translate":"    ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n"]; No matching codec found; Not a json array: {"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"}; Not a string: {"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"}; Not a string: ["","\n",{"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":" ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"  ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"Download it to access datapack menu's and settings!","with":[{"text":"[__________Contributors__________]","color":"white","italic":false,"font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":"   ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n",{"translate":"    ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n"] at position 1979: ...}}]},"\n"]<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Invalid chat component: Not a JSON object: ["","\n",{"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":" ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"  ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"Download it to access datapack menu's and settings!","with":[{"text":"[__________Contributors__________]","color":"white","italic":false,"font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":"   ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n",{"translate":"    ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n"]; No matching codec found; Not a json array: {"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"}; Not a string: {"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"}; Not a string: ["","\n",{"translate":"Technodono's universal resourcepack not detected!","with":[{"text":"[______Installed_datapacks______]","color":"white","italic":"false","font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":" ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"  ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/list_packs/list_packs_1"}}]},"\n",{"translate":"Download it to access datapack menu's and settings!","with":[{"text":"[__________Contributors__________]","color":"white","italic":false,"font":"techno.shared:button"}],"italic":true,"color":"red"},"\n",{"translate":"   ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n",{"translate":"    ","with":[{"text":"","font":"techno.shared:button","clickEvent":{"action":"run_command","value":"/function techno.shared:gui/contributors"}}]},"\n"] at position 1979: ...}}]},"\n"]<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[11:37:12] [main/ERROR]: Couldn't load tag minecraft:load as it is missing following references: techno.shared:load (from mr_dungeons)
+[11:37:13] [main/INFO]: Loaded 1723 advancements
+[11:37:13] [main/INFO]: [REI] ****************************************
+[11:37:13] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[11:37:13] [main/INFO]: [REI] Plugins (4):
+[11:37:13] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[11:37:13] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[11:37:13] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[11:37:13] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[11:37:13] [main/INFO]: [REI] ****************************************
+[11:37:13] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[11:37:13] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[11:37:13] [main/INFO]: [REI] Plugins (4):
+[11:37:13] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[11:37:13] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[11:37:13] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[11:37:13] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[11:37:13] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[11:37:13] [main/INFO]: [REI] REIPlugin finished post-reload for START in 2.453 ms, totaling 67.47 ms.
+[11:37:13] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 1.800 ms, totaling 9.128 ms.
+[11:37:13] [main/INFO]: [REI] ========================================
+[11:37:13] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[11:37:13] [main/INFO]: [REI] Plugins (4):
+[11:37:13] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[11:37:13] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[11:37:13] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[11:37:13] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[11:37:13] [main/INFO]: [REI] ========================================
+[11:37:13] [main/INFO]: [REI] ----------------------------------------
+[11:37:13] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[11:37:13] [main/INFO]: [REI] Plugins (4):
+[11:37:13] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[11:37:13] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[11:37:13] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[11:37:13] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[11:37:13] [main/INFO]: [REI] ----------------------------------------
+[11:37:13] [main/INFO]: [REI] REIPlugin finished post-reload for END in 4.442 ms, totaling 65.75 ms.
+[11:37:13] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 1.195 ms, totaling 24.44 ms.
+[11:37:14] [main/INFO]: Applied 64 biome modifications to 64 of 64 new biomes in 40.49 ms
+[11:37:15] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[11:37:15] [Server thread/INFO]: Loading properties
+[11:37:15] [Server thread/INFO]: Default game type: SURVIVAL
+[11:37:15] [Server thread/INFO]: Generating keypair
+[11:37:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:37:15] [Server thread/INFO]: Using epoll channel type
+[11:37:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:37:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:37:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:37:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:37:15] [Server thread/INFO]: Preparing level "world"
+[11:37:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:37:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:37:27] [Server thread/INFO]: Time elapsed: 4759 ms
+[11:37:27] [Server thread/INFO]: Done (11.987s)! For help, type "help"
+[11:37:28] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[11:37:28] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[11:37:28] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[11:37:28] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[11:37:28] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[11:37:28] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[11:37:37] [Server thread/INFO]: DetonaGordas69[/100.115.36.22:65142] logged in with entity id 65 at (124.39987643061296, 122.0, -139.69326407230432)
+[11:37:37] [Server thread/INFO]: Loading config from file...
+[11:37:38] [Server thread/INFO]: DetonaGordas69 joined the game
+[11:37:52] [Server thread/INFO]: DetonaGordas69 was slain by Zombie
+[11:38:06] [Server thread/INFO]: DetonaGordas69 lost connection: Disconnected
+[11:38:06] [Server thread/INFO]: DetonaGordas69 left the game
